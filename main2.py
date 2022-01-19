@@ -5,10 +5,10 @@ import pandas as pd
 config = configparser.ConfigParser()
 config.read('config.ini')
 
-consumer_key = "MNDULjLgFcChPni7Iqr7M8xSl"
-consumer_secret = "vdAf7cgxiR6K0WGWt6K47kZwgPe8kZvvlODwhPNMlv6FIfBS6J"
-key = "1457353798452645899-NSXAmmlrVjeEf104Otxo2R0hhxP0Dl"
-secret = "voYjNfMuHKqP4lSXbWVNXBc4HHgzAm7w14ChQ5B0fnG3B"
+consumer_key = 
+consumer_secret = 
+key = 
+secret = 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
